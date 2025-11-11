@@ -9,10 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@reown/appkit": "^1.8.13",
+    "@reown/appkit-adapter-wagmi": "^1.8.13",
+    "@tanstack/query-sync-storage-persister": "^5.90.8",
+    "@tanstack/react-query": "^5.90.6",
     "next": "16.0.1",
     "postcss": "^8.5.6",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "viem": "^2.38.6",
+    "wagmi": "^2.19.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
